@@ -118,3 +118,10 @@ function stringToArray(string){
 return string.split(" ");
 
 }
+
+
+Grasshopper - Summation
+
+let summation = function (n) {
+  return n * (n + 1) / 2;
+}
