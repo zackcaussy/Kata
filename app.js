@@ -86,3 +86,21 @@ function repeatStr(n, s) {
 return s.repeat(n);
   return '';
 }
+
+Convert a Boolean to a String
+
+function booleanToString(b){
+  return String(b);
+}  
+  
+ Remove First and Last Character 
+  
+ function removeChar(str){
+return str.slice(1,-1);
+}
+
+MakeUpperCase
+
+function makeUpperCase(str) {
+ return str.toUpperCase()
+}
