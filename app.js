@@ -65,3 +65,24 @@ const stringToNumber = function(str){
 return (+str);
   return null;
 }
+
+Remove String Spaces
+
+function noSpace(x){
+  return x.replace(/\s/g, '');
+  return noSpace(x);
+}
+
+
+Returning Strings
+
+function greet(name){
+  return "Hello, "+ name +" how are you doing today?";
+}
+
+String repeat
+
+function repeatStr(n, s) {
+return s.repeat(n);
+  return '';
+}
