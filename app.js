@@ -104,3 +104,10 @@ MakeUpperCase
 function makeUpperCase(str) {
  return str.toUpperCase()
 }
+
+Sum The Strings
+
+function sumStr(a,b) {
+c = +a + +b;
+return String(c);
+}
