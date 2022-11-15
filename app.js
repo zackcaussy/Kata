@@ -182,3 +182,73 @@ const quarterOf = (month) => {
  } 
   return;
 }
+
+
+Century From Year
+
+function century(year) {
+if (year < 101){
+    return 1; 
+  }
+ else if (year < 201){
+   return 2;
+ }
+else if (year < 301){
+   return 3;
+ }
+else if (year < 401){
+   return 4;
+ } 
+else if (year <501){
+   return 5;
+ } 
+else if (year <601){
+   return 6;
+ }  
+else if (year <701){
+   return 7;
+ } 
+ else if (year <801){
+   return 8;
+ }  
+ else if (year <901){
+   return 9;
+ }  
+  else if (year <1001){
+   return 10;
+ } 
+ else if (year <1101){
+   return 11;
+ }  
+  else if (year <1201){
+   return 12;
+ } 
+ else if (year <1301){
+   return 13;
+ }  
+ else if (year <1401){
+   return 14;
+ }  
+ else if (year <1501){
+   return 15;
+ }
+ else if (year <1601){
+   return 16;
+ }  
+  else if (year <1701){
+   return 17;
+ } 
+  else if (year <1801){
+   return 18;
+ } 
+  else if (year <1901){
+   return 19;
+ } 
+  else if (year <2001){
+   return 20;
+ } 
+ else if (year <2101){
+   return 21;
+ } 
+  return;
+}
