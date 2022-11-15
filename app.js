@@ -198,3 +198,9 @@ let championsLeagueGoals = 10;
 let copaDelReyGoals = 5;
 
 let totalGoals = +laLigaGoals + +championsLeagueGoals + +copaDelReyGoals
+
+Grasshopper - Messi goals function
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return +laLigaGoals + +copaDelReyGoals + +championsLeagueGoals;
+}
