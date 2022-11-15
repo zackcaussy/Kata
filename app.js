@@ -125,3 +125,16 @@ Grasshopper - Summation
 let summation = function (n) {
   return n * (n + 1) / 2;
 }
+
+
+Simple multiplication
+
+function simpleMultiplication(number) {
+if ( number % 2 == 0 ){
+  return number * 8;
+} 
+  else {
+    return number * 9;
+}
+
+}
