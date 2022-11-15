@@ -138,3 +138,15 @@ if ( number % 2 == 0 ){
 }
 
 }
+
+The 'if' function
+
+function _if(bool, func1, func2) {
+  if ( bool == true ) {
+     func1();
+  }
+  else {
+     func2();
+  }   
+}
+
