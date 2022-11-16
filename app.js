@@ -258,3 +258,15 @@ let a = "dev"
 let b = "Lab"
 
 let name = a + b
+
+
+Powers of 2
+
+function powersOfTwo(n){
+let solution = [];
+  for (let i = 0 ; i <= n ; i++){
+    
+  solution.push(2 ** i);
+}
+  return solution
+}
