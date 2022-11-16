@@ -288,3 +288,11 @@ function sayHello(name) {
 
   return "Hello, " + name;
 }
+
+
+Dollars and Cents
+
+function formatMoney(amount){
+ let a = "$" + 39.99.toFixed(2);
+  return a;
+}
