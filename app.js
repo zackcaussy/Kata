@@ -293,6 +293,6 @@ function sayHello(name) {
 Dollars and Cents
 
 function formatMoney(amount){
- let a = "$" + 39.99.toFixed(2);
+ let a = "$" + amount.toFixed(2);
   return a;
 }
