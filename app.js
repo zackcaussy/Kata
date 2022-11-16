@@ -281,3 +281,10 @@ let solution = 0
   }
 return solution
 }
+
+Grasshopper - Debug sayHello
+
+function sayHello(name) {
+
+  return "Hello, " + name;
+}
