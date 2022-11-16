@@ -270,3 +270,14 @@ let solution = [];
 }
   return solution
 }
+
+
+Square(n) Sum
+
+function squareSum(numbers){
+let solution = 0
+  for (let i = 0 ; i < numbers.length ; i++) {
+    solution += numbers [i]**2;
+  }
+return solution
+}
