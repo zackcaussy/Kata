@@ -359,3 +359,9 @@ Remove exclamation marks
 function removeExclamationMarks(s) {
   return s.replace(/!/g,"");
 }
+
+You only need one - Beginner
+
+function check(a, x) {
+return a.includes(x);
+}
