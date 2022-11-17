@@ -296,3 +296,15 @@ function formatMoney(amount){
  let a = "$" + amount.toFixed(2);
   return a;
 }
+
+If you can't sleep, just count sheep!!
+
+let countSheep = function (num){
+  let str = "" ;
+  for (let i = 1 ; i <= num ; i++){
+
+  str = str + i + " sheep...";
+    }
+  
+return str 
+}
