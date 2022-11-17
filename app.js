@@ -353,3 +353,9 @@ How many lightsabers do you own?
     if(name == "Zach") return 18;
     else return 0;
   }
+
+Remove exclamation marks
+
+function removeExclamationMarks(s) {
+  return s.replace(/!/g,"");
+}
