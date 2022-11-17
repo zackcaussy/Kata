@@ -316,3 +316,24 @@ function greet (name, owner) {
 else return "Hello guest"  ;
   
 }
+
+
+Counting sheep...
+
+function countSheeps(arrayOfSheep) {
+  let x = 0;
+  for ( let i = 0 ; i < arrayOfSheep.length ; i++) {
+    if (arrayOfSheep[i] == true ){
+      x += 1
+    }
+  }
+  return x;
+}
+
+Sum Arrays
+
+// Sum Numbers
+function sum (numbers) {
+    "use strict";
+ return numbers.reduce((accumalator, value) => {return accumalator + value}, 0);
+  }
