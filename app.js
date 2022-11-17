@@ -337,3 +337,11 @@ function sum (numbers) {
     "use strict";
  return numbers.reduce((accumalator, value) => {return accumalator + value}, 0);
   }
+
+Find the smallest integer in the array
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args);
+    }
+}
