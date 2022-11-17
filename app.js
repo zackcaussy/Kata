@@ -345,3 +345,11 @@ class SmallestIntegerFinder {
     return Math.min(...args);
     }
 }
+
+How many lightsabers do you own?
+
+   function howManyLightsabersDoYouOwn(name) {
+    if(name > 0) return 0;
+    if(name == "Zach") return 18;
+    else return 0;
+  }
