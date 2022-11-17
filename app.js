@@ -297,7 +297,7 @@ function formatMoney(amount){
   return a;
 }
 
-If you can't sleep, just count sheep!!
+'If you can't sleep, just count sheep!!
 
 let countSheep = function (num){
   let str = "" ;
