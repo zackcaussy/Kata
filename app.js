@@ -414,3 +414,17 @@ function problem(x){
   return "Error"
 }
   
+
+
+Will you make it?
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+ let a = distanceToPump;
+  let b = mpg;
+  let c = fuelLeft;
+  
+  if( a/c <= b ){
+    return true;
+}
+    return false;
+  }
