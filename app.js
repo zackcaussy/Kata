@@ -428,3 +428,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 }
     return false;
   }
+
+
+MakeUpperCase
+
+function makeUpperCase(str) {
+return str.toUpperCase(str);
+}
