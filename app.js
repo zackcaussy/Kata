@@ -442,3 +442,11 @@ function doubleInteger(i) {
   i = i *2;
   return i;
 }
+
+
+Function 2 - squaring an argument
+
+function square(x){
+ let a = x**2;
+ return a;
+}
