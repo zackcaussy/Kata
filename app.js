@@ -450,3 +450,11 @@ function square(x){
  let a = x**2;
  return a;
 }
+
+
+Grasshopper - Basic Function Fixer
+
+function addFive(num) {
+  var num = num + 5;
+  return num
+}
