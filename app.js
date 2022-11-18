@@ -489,3 +489,9 @@ function greet(name){
   if(name == "Johnny")
   return "Hello, my love!";
 }
+
+Find Nearest square number
+
+function nearestSq(n){
+    return n = Math.pow(Math.round(Math.sqrt(n)), 2);
+   }
