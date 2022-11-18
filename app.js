@@ -458,3 +458,14 @@ function addFive(num) {
   var num = num + 5;
   return num
 }
+
+
+Find out whether the shape is a cube
+
+var cubeChecker = function(volume, side){
+  
+  if( volume == side*side*side && volume > 0){
+    return true
+  }
+  return false;
+}
