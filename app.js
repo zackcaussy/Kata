@@ -435,3 +435,10 @@ MakeUpperCase
 function makeUpperCase(str) {
 return str.toUpperCase(str);
 }
+
+You Can't Code Under Pressure #1
+
+function doubleInteger(i) {
+  i = i *2;
+  return i;
+}
