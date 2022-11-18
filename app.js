@@ -387,3 +387,11 @@ function basicOp(operation, value1, value2)
       }
   return;
 }
+
+
+Keep Hydrated!
+
+function litres(time) {
+  let result = time*0.5;
+  return Math.floor(result);
+}
