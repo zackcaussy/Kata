@@ -478,3 +478,14 @@ const areaOrPerimeter = function(l , w) {
   }
   return 2*l + 2*w
 };
+
+Jenny's secret message
+
+function greet(name){
+  
+  if (name != "Johnny")
+  return "Hello, " + name + "!";
+  
+  if(name == "Johnny")
+  return "Hello, my love!";
+}
