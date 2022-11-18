@@ -365,3 +365,25 @@ You only need one - Beginner
 function check(a, x) {
 return a.includes(x);
 }
+
+Basic Mathematical Operations
+
+function basicOp(operation, value1, value2)
+{
+  let start = 0;
+  switch (operation){
+    case "+": 
+      return value1 + value2;
+      break;
+    case "-": 
+      return value1 - value2;
+      break;
+    case "*": 
+      return value1 * value2;
+      break;
+    case "/": 
+      return value1 / value2;
+      break;
+      }
+  return;
+}
