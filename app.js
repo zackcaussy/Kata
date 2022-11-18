@@ -402,3 +402,15 @@ function otherAngle(a, b) {
 let c = 180 - (a+b);
   return c
 }
+
+Super Duper Easy
+
+function problem(x){
+ if (typeof x === 'number'){
+ x = x * 50;
+  x += 6;
+  return x;
+}
+  return "Error"
+}
+  
