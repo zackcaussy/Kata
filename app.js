@@ -395,3 +395,10 @@ function litres(time) {
   let result = time*0.5;
   return Math.floor(result);
 }
+
+Third Angle of a Triangle
+
+function otherAngle(a, b) {
+let c = 180 - (a+b);
+  return c
+}
