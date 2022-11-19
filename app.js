@@ -508,3 +508,13 @@ let sum = on + wait;
     return sum - cap;  
   }    
 }
+
+
+Volume of a Cuboid
+
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    let sum = length * width * height;
+    return sum;
+  }
+}
