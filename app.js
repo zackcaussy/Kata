@@ -518,3 +518,9 @@ class Kata {
     return sum;
   }
 }
+
+Sum of angles
+
+function angle(n) {
+return sum = 180 *(n-2);
+}
