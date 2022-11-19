@@ -495,3 +495,16 @@ Find Nearest square number
 function nearestSq(n){
     return n = Math.pow(Math.round(Math.sqrt(n)), 2);
    }
+
+
+Will there be enough space?
+
+function enough(cap, on, wait) {
+let sum = on + wait;
+  if (cap > sum){
+    return 0
+  }
+  else {
+    return sum - cap;  
+  }    
+}
