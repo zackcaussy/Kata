@@ -548,3 +548,20 @@ let t = flower1 % 2;
   return false
   
 }
+
+Find the Remainder
+
+function remainder(n, m){
+
+if (n > m){
+  return n % m;
+}
+if (n < m){
+  return m % n;
+}
+if ( m < 0){
+  return m % n;
+}
+if ( m === 0 || n === 0){
+    return NaN
+}
