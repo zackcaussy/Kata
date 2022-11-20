@@ -674,7 +674,7 @@ function answer3(){
 
   Training JS #4: Basic data types--Array
   
-  function getLength(arr){
+function getLength(arr){
   //return length of arr
   return arr.length
 }
@@ -684,7 +684,7 @@ function getFirst(arr){
 }
 function getLast(arr){
   //return the last element of arr
-  return arr[2]
+  return arr[arr.length - 1]
 }
 function pushElement(arr){
   var el=1;
