@@ -715,3 +715,73 @@ function popElement(arr){
 
  return Boolean(val) ? 'true' : 'false';
 }
+
+ Training JS #8: Conditional statement--switch 
+  
+ function howManydays(month){
+let x = month;
+  switch (month){
+
+case 1:
+      x = 1 ;
+  return 31 ;
+  break ;
+
+case 2:
+      x = 2 ;
+  return 28 ;
+  break ; 
+
+case 3:
+      x = 3 ;
+  return 31 ;
+  break ;   
+      
+case 4:
+      x = 4 ;
+  return 30 ;
+  break ;
+
+case 5:
+      x = 5 ;
+  return 31 ;
+  break ;
+      
+case 6:
+      x = 6 ;
+  return 30 ;
+  break ;
+
+case 7:
+      x = 7 ;
+  return 31 ;
+  break ; 
+      
+case 8:
+      x = 8 ;
+  return 31 ;
+  break ;
+      
+case 9:
+      x = 9 ;
+  return 30 ;
+  break ;
+
+case 10:
+      x = 10 ;
+  return 31 ;
+  break ;
+      
+case 11:
+      x = 11 ;
+  return 30 ;
+  break ;
+
+case 12:
+      x = 12 ;
+  return 31 ;
+  break ; 
+            
+}
+  return x ; 
+  
