@@ -698,3 +698,13 @@ function popElement(arr){
   arr.pop()
   return arr
 }
+
+ Training JS #5: Basic data types--Object 
+  
+  function animal(obj){
+  name : "dog";
+    legs : 4;
+      color : "white";
+
+  return "This " + obj.color + " " + obj.name + " has " + obj.legs + " legs."
+}
