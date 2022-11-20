@@ -565,3 +565,17 @@ if ( m < 0){
 if ( m === 0 || n === 0){
     return NaN
 }
+  
+  
+ Is he gonna survive? 
+  
+  function hero(bullets, dragons){
+  let b = bullets;
+  let d = dragons;
+
+if (b/2 >= d){
+  return true;
+}
+  return false;
+}
+
