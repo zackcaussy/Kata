@@ -579,3 +579,16 @@ if (b/2 >= d){
   return false;
 }
 
+  Training JS #7: if..else and ternary operator
+
+  function saleHotdogs(n){
+  if (n < 5){
+  return n * 100
+    }
+  if (n >= 5 && n < 10){
+    return n * 95
+  }
+  else (n >= 10)
+  return n * 90
+}
+  
