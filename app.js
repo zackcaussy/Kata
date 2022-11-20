@@ -536,3 +536,15 @@ if ( n< 0 || m<0){
     return n * m
   }
 }
+
+Opposites Attract
+
+function lovefunc(flower1, flower2){
+let t = flower1 % 2;
+  let s = flower2 % 2;
+  if (t != s){
+    return true
+  }
+  return false
+  
+}
