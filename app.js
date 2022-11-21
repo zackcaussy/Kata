@@ -785,3 +785,14 @@ case 12:
 }
   return x ; 
   
+
+ Is n divisible by x and y?
+   
+   function isDivisible(n, x, y) {
+  
+  let a = n % x;
+  let b = n % y;
+  
+return (a == 0 && b == 0) ? true : false
+}
+   
