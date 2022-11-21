@@ -815,3 +815,22 @@ Is it even?
    function setAlarm(employed, vacation){
 return (employed == true && vacation == false) ? true : false;
 }
+
+   
+   Calculate BMI
+   
+   function bmi(weight, height) {
+  let result = weight / height**2;
+  if (result <= 18.5){
+    return "Underweight";
+  }
+  else if (result <= 25){
+    return "Normal";
+  }
+  else if (result <= 30){
+    return "Overweight"
+  }
+  else (result > 30)
+  return "Obese";
+}
+   
