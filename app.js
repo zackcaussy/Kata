@@ -912,3 +912,9 @@ return +number.toFixed(precision);
 let result = ((3.9342*(bodyHeight) + 3.4702)*100).toFixed(2);
   return +(result/100).toFixed(2);
 }
+
+   Reverse List Order
+   
+   function reverseList(list) {
+return list.reverse()
+}
