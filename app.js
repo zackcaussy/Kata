@@ -925,4 +925,11 @@ return list.reverse()
    function oddCount(n){
 let a = Math.ceil((n-1)/2*1000);
   return Math.ceil(a/1000);
+     
+    
+   Bin to Decimal  
+     
+     function binToDec(bin){
+return +parseInt(bin, 2).toString(10);
+}
 }
