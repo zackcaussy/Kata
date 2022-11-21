@@ -859,3 +859,17 @@ function exponent(a,b){
 function subt(a,b){
     return a - b
 }
+
+   
+   Unfinished Loop - Bug Fixing #1
+   
+   function createArray(number){
+  
+  let newArray = [];
+  
+  for (let counter = 1; counter <= number; counter++){
+   newArray.push(counter);
+  }
+  
+  return newArray;
+}
