@@ -873,3 +873,18 @@ function subt(a,b){
   
   return newArray;
 }
+
+   
+   Calculate average 
+   
+   function findAverage(array) {
+let sum = 0;
+  for (let i = 0 ; i < array.length; i++){
+      sum += array[i] ;
+ }
+  if ( array.length >= 1){
+  return (sum/array.length);
+ }  
+else (array.length == 0) 
+  return 0
+}
