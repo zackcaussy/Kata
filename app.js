@@ -931,5 +931,12 @@ let a = Math.ceil((n-1)/2*1000);
      
      function binToDec(bin){
 return +parseInt(bin, 2).toString(10);
+       
+       
+     USD => CNY  
+       
+       function usdcny(usd) {
+  return (usd*6.75).toFixed(2) + " Chinese Yuan";
+}
 }
 }
