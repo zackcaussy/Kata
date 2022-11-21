@@ -796,3 +796,9 @@ case 12:
 return (a == 0 && b == 0) ? true : false
 }
    
+
+Is it even?
+   
+   function testEven(n) {
+ return (n % 2 == 0) ? true : false
+}
