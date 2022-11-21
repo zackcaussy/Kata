@@ -918,3 +918,11 @@ let result = ((3.9342*(bodyHeight) + 3.4702)*100).toFixed(2);
    function reverseList(list) {
 return list.reverse()
 }
+   
+   
+   Count Odd Numbers below n
+   
+   function oddCount(n){
+let a = Math.ceil((n-1)/2*1000);
+  return Math.ceil(a/1000);
+}
