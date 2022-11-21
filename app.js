@@ -888,3 +888,9 @@ let sum = 0;
 else (array.length == 0) 
   return 0
 }
+
+   Sentence Smash
+   
+   function smash (words) {
+   return words.join(" ");
+};
