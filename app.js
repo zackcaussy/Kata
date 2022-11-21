@@ -802,3 +802,10 @@ Is it even?
    function testEven(n) {
  return (n % 2 == 0) ? true : false
 }
+
+   
+  Exclusive "or" (xor) Logical Operator 
+   
+   function xor(a, b) {
+ return (a != b) ? true : false
+}
