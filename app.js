@@ -896,4 +896,12 @@ else (array.length == 0)
 };
 
    !a == a ?!
+     
    const a = "0";
+   
+   
+   Improving Math.round(x)
+   
+   Math.roundTo = function (number, precision) {
+return +number.toFixed(precision);
+}
