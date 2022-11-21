@@ -894,3 +894,6 @@ else (array.length == 0)
    function smash (words) {
    return words.join(" ");
 };
+
+   !a == a ?!
+   const a = "0";
