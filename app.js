@@ -905,3 +905,10 @@ else (array.length == 0)
    Math.roundTo = function (number, precision) {
 return +number.toFixed(precision);
 }
+
+   Pole Vault Starting Marks
+   
+   function startingMark(bodyHeight){
+let result = ((3.9342*(bodyHeight) + 3.4702)*100).toFixed(2);
+  return +(result/100).toFixed(2);
+}
