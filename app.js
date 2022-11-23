@@ -977,3 +977,15 @@ return +parseInt(bin, 2).toString(10);
       function digitize(n) {
   return n.toString().split("").reverse().map(Number);
 }
+
+     Find Maximum and Minimum Values of a List
+      
+      let min = function(list){
+    
+    return Math.min.apply(Math,list);
+}
+
+let max = function(list){
+    
+    return Math.max.apply(Math,list);
+}
