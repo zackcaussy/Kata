@@ -1001,3 +1001,7 @@ return parseInt(hexString, 16);
       function findNeedle(haystack) {
 return "found the needle at position " + haystack.indexOf("needle"); 
 }
+
+   Incorrect division method
+   
+      const solve = (x, y) => x / y
